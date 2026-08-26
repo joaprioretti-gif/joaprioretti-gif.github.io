@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudio Meridiano — Colección de obras originales</title>
+<meta name="description" content="Una colección de once obras originales. Recorrida digital de una pequeña galería de arte contemporáneo.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="#top" class="brand" data-gallery-name>Estudio Meridiano</a>
+      <nav class="main-nav" id="main-nav">
+        <a href="#obras">Obras</a>
+        <a href="#sobre-la-coleccion">Sobre la colección</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-media">
+      <img src="images/obra-05.svg" alt="Silencio, óleo sobre lienzo, 2022" loading="eager">
+    </div>
+    <div class="hero-content">
+      <div class="wrap">
+        <div class="label">Colección privada</div>
+        <h1 data-gallery-name>Estudio Meridiano</h1>
+        <p class="tagline">Once obras originales, reunidas en un mismo recorrido.</p>
+        <a href="#obras" class="discover">Descubrir la colección <span class="arrow">↓</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="obras">
+    <div class="wrap">
+      <div class="section-intro reveal">
+        <div class="label">01 — La colección</div>
+        <h2>Once piezas, un mismo recorrido</h2>
+      </div>
+      <div class="grid" id="grid" aria-label="Grilla de obras"></div>
+    </div>
+  </section>
+
+  <section class="about" id="sobre-la-coleccion">
+    <div class="wrap about-grid">
+      <div class="about-portrait reveal">
+        <!-- TODO: reemplazar por una foto real del artista o del taller -->
+        <img src="images/obra-08.svg" alt="Retrato del artista en su taller" loading="lazy">
+      </div>
+      <div class="about-text reveal">
+        <div class="label">02 — Sobre la colección</div>
+        <h3>M. Losada</h3>
+        <p>[Placeholder] Esta colección reúne once obras realizadas entre 2019 y 2023, pensadas como un mismo cuerpo de trabajo aunque cada pieza pueda leerse de forma independiente.</p>
+        <p>[Placeholder] El interés recurrente es el espacio: interiores vacíos, horizontes que se repiten, umbrales entre una cosa y la siguiente. Reemplazar este texto por la biografía y el concepto definitivos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <div class="wrap">
+      <div class="section-intro reveal">
+        <div class="label">03 — Contacto</div>
+        <h2>¿Te interesa alguna obra?</h2>
+        <p style="color:var(--graphite); margin-top:14px; max-width:48ch;">Escribime para consultar disponibilidad, precio o cualquier información adicional sobre una pieza.</p>
+      </div>
+      <div class="contact-actions reveal">
+        <a href="#" class="contact-btn solid" data-whatsapp-url target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        <a href="#" class="contact-btn" data-instagram-url target="_blank" rel="noopener">Instagram</a>
+        <a href="#" class="contact-btn" data-email>Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span class="label" data-gallery-name>Estudio Meridiano</span>
+    <span class="label"><a href="#" data-instagram-handle data-instagram-url target="_blank" rel="noopener">@estudiomeridiano</a></span>
+    <span class="label">© <span id="year"></span> — Todos los derechos reservados</span>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada de la obra">
+    <div class="lightbox-inner">
+      <div class="lb-image-wrap">
+        <button class="lb-nav lb-prev" id="lb-prev" aria-label="Obra anterior">‹</button>
+        <img id="lb-img" src="" alt="">
+        <button class="lb-nav lb-next" id="lb-next" aria-label="Obra siguiente">›</button>
+      </div>
+      <div class="lb-panel">
+        <button class="lb-close" id="lb-close" aria-label="Cerrar">×</button>
+        <div class="label">Ficha técnica</div>
+        <h3 id="lb-title"></h3>
+        <div class="label" id="lb-artist"></div>
+        <div class="lb-status" id="lb-status"></div>
+        <div class="lb-meta" id="lb-meta"></div>
+        <p class="lb-desc" id="lb-desc"></p>
+        <a href="#" class="lb-inquire" id="lb-inquire" target="_blank" rel="noopener">Consultar por esta obra</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

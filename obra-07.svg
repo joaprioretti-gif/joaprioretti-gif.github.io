@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 642 900" width="642" height="900">
+<defs><filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45.0"/></filter><linearGradient id="g07" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7A2E2E"/><stop offset="100%" stop-color="#E8C8A0"/></linearGradient></defs>
+<rect width="642" height="900" fill="url(#g07)"/>
+<path d="M 575.0,230.0 L 407.6,395.8 L 241.8,491.0 L 94.0,377.9 L -105.1,230.0 L 91.9,80.1 L 241.8,-65.3 L 442.1,29.8 Z" fill="#C97A4A" opacity="0.36810907166688567" filter="url(#soft)"/>
+<path d="M 490.4,365.4 L 467.0,495.3 L 337.1,486.2 L 180.8,521.7 L 132.6,365.4 L 179.6,207.9 L 337.1,218.3 L 436.5,266.0 Z" fill="#2A1414" opacity="0.47685893329735507" filter="url(#soft)"/>
+<path d="M 242.1,408.2 L 242.6,537.7 L 113.2,632.4 L 2.1,519.3 L -64.7,408.2 L -0.2,294.9 L 113.2,210.0 L 249.3,272.0 Z" fill="#E8C8A0" opacity="0.37267825333596627" filter="url(#soft)"/>
+<path d="M 445.1,655.9 L 416.0,784.8 L 287.1,845.0 L 161.4,781.6 L 95.5,655.9 L 159.3,528.2 L 287.1,471.9 L 392.8,550.2 Z" fill="#C97A4A" opacity="0.4058097411517536" filter="url(#soft)"/>
+<rect width="642" height="900" fill="#7A2E2E" opacity="0.06"/>
+</svg>
